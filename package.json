@@ -1,0 +1,19 @@
+{
+  "name": "ripgrep-replace",
+  "displayName": "Ripgrep Replace",
+  "description": "Ripgrep mantığında arama ve değiştirme aracı",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "activationEvents": [],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ripgrep-replace.search",
+        "title": "Ripgrep: Ara ve Değiştir"
+      }
+    ]
+  }
+}
